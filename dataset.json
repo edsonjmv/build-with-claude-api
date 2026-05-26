@@ -1,11 +1,11 @@
 [
   {
-    "task": "Write a Python function that parses an AWS S3 bucket name from an S3 URI in the format 's3://bucket-name/key/path' and returns just the bucket name."
+    "task": "Write a Python function that validates an AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, and hyphens only, must start and end with letter or number)"
   },
   {
-    "task": "Create a JSON object that represents an AWS IAM policy allowing read-only access to all objects in a specific S3 bucket named 'my-data-bucket'."
+    "task": "Create a JSON CloudFormation template snippet that defines an AWS Lambda function resource with basic properties (FunctionName, Runtime set to Python 3.11, and a Handler)"
   },
   {
-    "task": "Write a regular expression that matches valid AWS EC2 instance IDs, which follow the pattern of 'i-' followed by exactly 17 hexadecimal characters (0-9 and a-f)."
+    "task": "Write a regular expression that matches valid AWS IAM role ARNs in the format arn:aws:iam::ACCOUNT-ID:role/ROLE-NAME"
   }
 ]

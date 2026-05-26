@@ -1,14 +1,14 @@
 [
   {
-    "task": "Extract the AWS account ID from an ARN string like 'arn:aws:s3:::my-bucket/my-key'",
+    "task": "Parse an AWS S3 bucket name from an S3 URI like 's3://my-bucket-name/path/to/file.txt' and extract just the bucket name",
     "format": "regex"
   },
   {
-    "task": "Create a JSON configuration object for an AWS Lambda function that sets environment variables, timeout, and memory allocation",
+    "task": "Create a JSON CloudFormation template snippet that defines an AWS Lambda function resource with basic properties (FunctionName, Runtime, Handler, Role)",
     "format": "json"
   },
   {
-    "task": "Write a Python function that validates if a given string is a valid AWS S3 bucket name according to AWS naming rules",
+    "task": "Write a Python function that takes an AWS EC2 instance ID string and validates that it matches the correct format (i-followed by 8 or 17 hexadecimal characters)",
     "format": "python"
   }
 ]
